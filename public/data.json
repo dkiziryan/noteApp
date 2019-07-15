@@ -1,0 +1,12 @@
+[{
+  "id": 1,
+  "title": "Test Note",
+  "body": "This is a test note object that will be available by default",
+  "created_at": 1563161563445,
+  "created_by": "admin",
+  "edit_history": [{
+    "edited_at": 1563161563445,
+    "edited_by": "A User"
+  }],
+  "tag": []
+}]

@@ -1,0 +1,46 @@
+.notesList {
+  border: 1px solid #ccc;
+  list-style: none;
+  max-height: 367px;
+  overflow-y: auto;
+  padding-left: 0;
+  margin: 24px 1px 1px 1px;
+  border-radius: 4px;
+  width: 25%;
+  float: left;
+  background-color: #f8f8f8
+}
+
+.notesList li {
+  padding: 0.5rem;
+}
+
+.notesList-active,
+.notesList li:hover {
+  background-color: #ccc;
+  color: black;
+  cursor: default;
+  font-weight: 700;
+}
+
+.notesList li:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+
+.noteItem {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.delete {
+  cursor: pointer;
+  left: 24%;
+  position: absolute;
+  display: inline-block;
+  z-index: 1000;
+  top: 3%;
+  color: red;
+  border: royalblue;
+  font-size: 13px;
+}

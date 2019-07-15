@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Note from "./containers/note";
+import NotesList from "./containers/notesList";
+
+import store from "./store";
+import * as actions from "./redux/actions";
+
+// Fetch the notes from the server here
+store.dispatch(actions.fetchNotes());
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <NotesList />
+      <Note />
     </div>
   );
 }
