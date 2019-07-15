@@ -5,9 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 A basic app that creates, reads, updates and deletes notes on the client side and is ready to integrate with a backend.
 Built using React/Redux/Redux Logic
 
-### `npm install`
+### Installation:
 
-### `npm start`
+`npm install`
+
+### To start App
+
+`npm run start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
